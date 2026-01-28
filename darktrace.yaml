@@ -1,0 +1,282 @@
+# Darktrace Competitor Intelligence Configuration
+# Last Updated: 2026-01-28
+
+client_name: "Darktrace"
+brand_domain: "darktrace.com"
+brand_name: "Darktrace"
+
+# Maximum branded keywords per competitor per solution
+max_keywords_per_competitor: 15
+
+# Solution Categories with Semantic Indicators and Competitors
+solution_categories:
+  
+  cloud:
+    name: "Cloud Security"
+    display_order: 1
+    
+    # Semantic indicators for keyword classification
+    # Keywords containing these terms will be classified as Cloud Security
+    semantic_indicators:
+      - cloud
+      - cspm
+      - cwpp
+      - cnapp
+      - container
+      - kubernetes
+      - k8s
+      - docker
+      - aws
+      - azure
+      - gcp
+      - google cloud
+      - iaas
+      - paas
+      - saas security
+      - cloud workload
+      - cloud posture
+      - cloud native
+      - serverless
+      - lambda
+      - ecs
+      - eks
+    
+    competitors:
+      - name: "Wiz"
+        domain: "wiz.io"
+        priority: 1
+        
+      - name: "Orca"
+        domain: "orca.security"
+        priority: 2
+        
+      - name: "Crowdstrike"
+        domain: "crowdstrike.com"
+        priority: 3
+        
+      - name: "Palo Alto Cortex Cloud"
+        domain: "paloaltonetworks.com"
+        priority: 4
+        brand_variations:
+          - palo alto
+          - paloalto
+          - cortex
+  
+  email:
+    name: "Email Security"
+    display_order: 2
+    
+    semantic_indicators:
+      - email
+      - phishing
+      - spam
+      - inbox
+      - mailbox
+      - smtp
+      - imap
+      - pop3
+      - email gateway
+      - email protection
+      - email threat
+      - business email compromise
+      - bec
+      - email security
+      - email defense
+      - mailflow
+      - message security
+      - email filtering
+    
+    competitors:
+      - name: "Abnormal"
+        domain: "abnormalsecurity.com"
+        priority: 1
+        brand_variations:
+          - abnormal security
+          - abnormalsecurity
+        
+      - name: "ProofPoint"
+        domain: "proofpoint.com"
+        priority: 2
+        special_flag: true  # High priority competitor
+        brand_variations:
+          - proofpoint
+          - proof point
+          
+      - name: "Mimecast"
+        domain: "mimecast.com"
+        priority: 3
+  
+  network:
+    name: "Network Security"
+    display_order: 3
+    
+    semantic_indicators:
+      - network
+      - ndr
+      - network detection
+      - network response
+      - ids
+      - ips
+      - intrusion detection
+      - intrusion prevention
+      - firewall
+      - lateral movement
+      - east west
+      - network traffic
+      - packet
+      - traffic analysis
+      - network monitoring
+      - network visibility
+      - zeek
+      - suricata
+      - network security
+      - network threat
+      - breach detection
+    
+    competitors:
+      - name: "VectraAI"
+        domain: "vectra.ai"
+        priority: 1
+        brand_variations:
+          - vectra
+          - vectra ai
+          
+      - name: "ExtraHop"
+        domain: "extrahop.com"
+        priority: 2
+        brand_variations:
+          - extrahop
+          - extra hop
+          
+      - name: "CoreLight"
+        domain: "corelight.com"
+        priority: 3
+        brand_variations:
+          - corelight
+          - core light
+
+# Geographic Regions to Track
+regions:
+  - code: "us"
+    name: "United States"
+    semrush_database: "us"
+    priority: 1
+    
+  - code: "uk"
+    name: "United Kingdom"
+    semrush_database: "uk"
+    priority: 2
+    
+  - code: "de"
+    name: "Germany"
+    semrush_database: "de"
+    priority: 3
+    
+  - code: "au"
+    name: "Australia"
+    semrush_database: "au"
+    priority: 4
+
+# Primary region for initial analysis
+primary_region: "us"
+
+# Data Refresh Settings
+refresh_schedule: "daily"
+refresh_time: "02:00"  # UTC
+
+# Keyword Filtering Rules
+keyword_filtering:
+  # Minimum search volume to include keyword
+  min_volume: 10
+  
+  # Keywords to exclude (non-product related)
+  exclude_patterns:
+    - career
+    - careers
+    - jobs
+    - hiring
+    - stock
+    - ipo
+    - investor
+    - acquisition
+    - merger
+    - lawsuit
+    - ceo
+    - founder
+    - wikipedia
+    - linkedin
+    - twitter
+    - facebook
+  
+  # How to handle generic brand keywords (e.g., just "darktrace")
+  # Options: "include_all", "prioritize_specific", "solution_specific_only"
+  generic_brand_strategy: "prioritize_specific"
+
+# Trend Calculation Settings
+trend_settings:
+  # Compare recent N months vs prior N months
+  comparison_period_months: 3
+  
+  # Momentum thresholds for status badges
+  momentum_thresholds:
+    strong_growth: 20      # >= 20% = Strong Growth
+    growth: 10             # >= 10% = Growth
+    stable_high: 5         # >= 5% = Stable
+    stable_low: -5         # >= -5% = Stable
+    decline: -10           # >= -10% = Declining
+    major_decline: -20     # >= -20% = Major Decline
+    severe_decline: -30    # < -30% = Severe Decline
+
+# Dashboard Settings
+dashboard:
+  theme: "storybook_green"
+  primary_color: "#4CAF50"
+  secondary_color: "#1e4d3c"
+  
+  # Default view settings
+  default_time_range: "2y"
+  default_chart_type: "area"
+  default_metric: "volume"
+
+# Export Settings
+export:
+  formats:
+    - csv
+    - excel
+    - pdf
+  include_raw_data: true
+  include_calculations: true
+
+# Snowflake Connection (references separate config)
+snowflake:
+  database: "QLIK"
+  schema: "COMPETITOR_INTELLIGENCE"
+  warehouse: "COMPUTE_WH"
+  role: "ANALYTICS_ROLE"
+
+# Notification Settings
+notifications:
+  enabled: true
+  alert_on:
+    - major_competitor_movement
+    - new_competitor_keywords
+    - significant_volume_change
+  recipients:
+    - jonathan.cocek@transmissionagency.com
+
+# Notes
+notes: |
+  This configuration supports the Darktrace Competitor Intelligence Dashboard.
+  
+  Key Features:
+  - Tracks 15 branded keywords per competitor per solution (195 total keywords)
+  - Semantic classification ensures keywords align with solution categories
+  - Supports multi-region analysis with US as primary
+  - Daily data refresh from SEMRush API
+  
+  Competitors are tracked across three distinct solution categories:
+  - Cloud Security (4 competitors)
+  - Email Security (3 competitors)  
+  - Network Security (3 competitors)
+  
+  Total: 13 competitors (11 unique + Darktrace)
