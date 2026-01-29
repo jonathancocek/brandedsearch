@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competitor Analysis - Darktrace Competitor Intelligence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #EAEAEA;
+            color: #030D11;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #030D11 0%, #E66203 100%);
+            color: white;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+        
+        .header-logo {
+            height: 40px;
+            width: auto;
+        }
+        
+        .header-content {
+            flex: 1;
+        }
+        
+        .header h1 {
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 0.9rem;
+        }
+        
+        .nav {
+            background: #FFFFFF;
+            border-bottom: 1px solid #B6B6B6;
+            padding: 0 2rem;
+            display: flex;
+            gap: 2rem;
+        }
+        
+        .nav a {
+            padding: 1rem 0;
+            text-decoration: none;
+            color: #666;
+            font-weight: 500;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .nav a:hover, .nav a.active {
+            color: #FF6B00;
+            border-bottom-color: #FF6B00;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .filters {
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+        }
+        
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .filter-group label {
+            font-weight: 500;
+            color: #666;
+            font-size: 0.875rem;
+        }
+        
+        .filter-group select {
+            padding: 0.5rem 1rem;
+            border: 1px solid #B6B6B6;
+            border-radius: 4px;
+            font-size: 0.875rem;
+            background: #FFFFFF;
+            cursor: pointer;
+        }
+        
+        .section {
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+        
+        .section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #030D11;
+            border-bottom: 2px solid #B6B6B6;
+            padding-bottom: 0.75rem;
+        }
+        
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+        }
+        
+        .chart-placeholder {
+            height: 350px;
+            background: linear-gradient(135deg, #EAEAEA 0%, #FFA52F 100%);
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            text-align: left;
+            padding: 0.75rem;
+            border-bottom: 2px solid #B6B6B6;
+            color: #666;
+            font-weight: 600;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+        }
+        
+        td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #EAEAEA;
+        }
+        
+        tr:hover {
+            background: #F5F5F5;
+        }
+        
+        .sparkline {
+            width: 100px;
+            height: 30px;
+            background: #EAEAEA;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .badge.growth {
+            background: rgba(39, 214, 46, 0.15);
+            color: #27D62E;
+        }
+        
+        .badge.stable {
+            background: rgba(255, 107, 0, 0.15);
+            color: #FF6B00;
+        }
+        
+        .badge.decline {
+            background: rgba(210, 21, 15, 0.15);
+            color: #D2150F;
+        }
+        
+        .competitor-name {
+            font-weight: 600;
+            color: #030D11;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="Logos/Darktrace/Darktrace_Logo_DarkBG_White.png" alt="Darktrace Logo" class="header-logo">
+        <div class="header-content">
+            <h1>Darktrace Competitor Intelligence</h1>
+            <p>Competitor Analysis - Multi-competitor Comparison & Share of Search</p>
+        </div>
+    </div>
+    
+    <nav class="nav">
+        <a href="index.html">Overview</a>
+        <a href="brand-analysis.html">Brand Analysis</a>
+        <a href="competitor-analysis.html" class="active">Competitor Analysis</a>
+        <a href="category-market.html">Category & Market</a>
+        <a href="keywords.html">Keywords</a>
+    </nav>
+    
+    <div class="container">
+        <div class="filters">
+            <div class="filter-group">
+                <label>Solution Category:</label>
+                <select>
+                    <option>All Categories</option>
+                    <option>Cloud Security</option>
+                    <option>Email Security</option>
+                    <option>Network Security</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Region:</label>
+                <select>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Germany</option>
+                    <option>Australia</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Multi-Competitor Comparison</h2>
+            <div class="charts-grid">
+                <div class="chart-placeholder">
+                    📊 Bar Chart: Volume comparison across all competitors
+                </div>
+                <div class="chart-placeholder">
+                    🥧 Donut Chart: Share of search distribution
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Competitor Momentum Tracker</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Competitor</th>
+                        <th>Category</th>
+                        <th>Total Volume</th>
+                        <th>Share of Search</th>
+                        <th>Momentum</th>
+                        <th>Trend</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="competitor-name">Wiz</span></td>
+                        <td>Cloud Security</td>
+                        <td>28,450</td>
+                        <td>18.2%</td>
+                        <td>+22.5%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge growth">Strong Growth</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">Abnormal</span></td>
+                        <td>Email Security</td>
+                        <td>19,230</td>
+                        <td>15.8%</td>
+                        <td>+18.3%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge growth">Strong Growth</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">VectraAI</span></td>
+                        <td>Network Security</td>
+                        <td>15,670</td>
+                        <td>12.9%</td>
+                        <td>+12.1%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge growth">Growth</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">Orca</span></td>
+                        <td>Cloud Security</td>
+                        <td>14,890</td>
+                        <td>9.5%</td>
+                        <td>+8.7%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge stable">Stable</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">ProofPoint</span></td>
+                        <td>Email Security</td>
+                        <td>22,340</td>
+                        <td>18.4%</td>
+                        <td>+5.2%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge stable">Stable</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">Crowdstrike</span></td>
+                        <td>Cloud Security</td>
+                        <td>31,200</td>
+                        <td>20.0%</td>
+                        <td>-2.3%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge decline">Decline</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">ExtraHop</span></td>
+                        <td>Network Security</td>
+                        <td>11,450</td>
+                        <td>9.4%</td>
+                        <td>-5.8%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge decline">Decline</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">Mimecast</span></td>
+                        <td>Email Security</td>
+                        <td>16,780</td>
+                        <td>13.8%</td>
+                        <td>-8.1%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge decline">Decline</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">CoreLight</span></td>
+                        <td>Network Security</td>
+                        <td>8,920</td>
+                        <td>7.3%</td>
+                        <td>-12.4%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge decline">Major Decline</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="competitor-name">Palo Alto Cortex Cloud</span></td>
+                        <td>Cloud Security</td>
+                        <td>18,560</td>
+                        <td>11.9%</td>
+                        <td>+3.1%</td>
+                        <td><span class="sparkline"></span></td>
+                        <td><span class="badge stable">Stable</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
