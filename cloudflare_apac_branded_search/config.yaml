@@ -1,0 +1,154 @@
+# Branded Search Share — Cloudflare vs. competitors, APAC
+# Everything the scripts need lives in this file. Edit here, not in the code.
+
+# ---------------------------------------------------------------------------
+# Markets (Semrush regional databases). APAC only.
+# Tier 1 is pulled by default. Tier 2 is low volume / noisy: add a code to
+# `markets` if a market is needed. Each extra market costs ~10 units per keyword.
+# ---------------------------------------------------------------------------
+markets:
+  au: Australia
+  nz: New Zealand
+  sg: Singapore
+  hk: Hong Kong
+  jp: Japan
+  kr: South Korea
+  in: India
+  id: Indonesia
+  my: Malaysia
+  ph: Philippines
+  th: Thailand
+  vn: Vietnam
+  tw: Taiwan
+tier2_markets_not_pulled: [pk, bd, lk, np, kh, mn, bn]
+
+# ---------------------------------------------------------------------------
+# Time window and cost
+#
+# snapshot_date: null  -> live data, 10 API units per keyword row (cheapest).
+#                          One call returns 12 months of trend + 12-month avg.
+# snapshot_date: "2026-10-15" -> same thing from a historical snapshot,
+#                          100 units per row. Only worth it to shift the window.
+#
+# trend_end_month: the calendar month of the LAST value in the 12-value
+# Semrush trend for the chosen snapshot. Calibrated on 2026-11-03 against
+# Cloudflare's 18 Nov 2025 global outage, which shows as the trend peak
+# (live data: peak at position 4 of 12 -> window Aug 2025 to Jul 2026).
+# analyze.py re-checks this in every market and warns if it looks wrong.
+# Verify any time in the Semrush UI (Keyword Overview -> Trend chart).
+# ---------------------------------------------------------------------------
+snapshot_date: null
+trend_end_month: "2026-07"
+anchor_event:
+  keyword: cloudflare
+  month: "2025-11"          # Cloudflare global outage, 18 Nov 2025
+
+units_per_row_live: 10
+units_per_row_historical: 100
+
+# ---------------------------------------------------------------------------
+# Brands
+# core_terms      = brand or product name only (bucket "core")
+# combo_name      = short form used to build brand + category word terms
+# local_terms     = local-script brand names, only queried in that market
+# Ambiguous terms are deliberately left out: "palo alto" (city), "cortex",
+# "prisma", "1.1.1.1", "warp".
+# ---------------------------------------------------------------------------
+brands:
+  Cloudflare:
+    domain: cloudflare.com
+    combo_name: cloudflare
+    core_terms:
+      - cloudflare
+      - cloud flare
+      - cloudflare warp
+      - cloudflare workers
+      - cloudflare tunnel
+      - cloudflare pages
+      - cloudflare r2
+      - cloudflare one
+      - cloudflare access
+      - cloudflare dns
+      - cloudflare turnstile
+    local_terms:
+      jp: [クラウドフレア]
+      kr: [클라우드플레어]
+
+  Akamai Technologies:
+    domain: akamai.com
+    combo_name: akamai
+    core_terms:
+      - akamai
+      - akamai technologies
+      - akamai connected cloud
+      - akamai linode
+      - linode
+      - akamai guardicore
+      - guardicore
+      - akamai prolexic
+      - akamai bot manager
+    local_terms:
+      jp: [アカマイ]
+      kr: [아카마이]
+
+  Zscaler:
+    domain: zscaler.com
+    combo_name: zscaler
+    core_terms:
+      - zscaler
+      - z scaler
+      - zscaler zia
+      - zscaler zpa
+      - zscaler zdx
+      - zscaler client connector
+      - zscaler internet access
+      - zscaler private access
+      - zscaler app
+    local_terms:
+      jp: [ゼットスケーラー]
+      kr: [지스케일러]
+
+  Palo Alto Networks:
+    domain: paloaltonetworks.com
+    combo_name: palo alto
+    core_terms:
+      - palo alto networks
+      - paloalto networks
+      - palo alto network
+      - palo alto firewall
+      - prisma access
+      - prisma sase
+      - prisma cloud
+      - cortex xdr
+      - cortex xsiam
+      - globalprotect
+      - global protect
+      - pan-os
+    local_terms:
+      jp: [パロアルトネットワークス]
+      kr: [팔로알토 네트웍스]
+
+# ---------------------------------------------------------------------------
+# Overlap areas. Category-qualified keywords = combo_name + word.
+# `brands` = who is compared in that area's share calculation.
+# ---------------------------------------------------------------------------
+overlap_areas:
+  CDN:
+    words: [cdn]
+    brands: [Cloudflare, Akamai Technologies]
+  DDoS and app security:
+    words: [ddos, waf]
+    brands: [Cloudflare, Akamai Technologies]
+  Zero Trust:
+    words: [zero trust, ztna]
+    brands: [Cloudflare, Akamai Technologies, Zscaler, Palo Alto Networks]
+  SASE / SSE:
+    words: [sase, sse]
+    brands: [Cloudflare, Zscaler, Palo Alto Networks]
+
+# Terms containing these words are noise and are excluded from share.
+# They are NOT pulled at all, which saves units.
+noise_words: [login, status, down, outage, support, careers, jobs, stock, share price, salary]
+
+# QA: flag month-over-month swings bigger than this (25% = 0.25)
+mom_flag_threshold: 0.25

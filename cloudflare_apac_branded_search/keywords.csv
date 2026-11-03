@@ -1,0 +1,70 @@
+brand,keyword,bucket,overlap_area,market
+Cloudflare,cloudflare,core,,all
+Cloudflare,cloud flare,core,,all
+Cloudflare,cloudflare warp,core,,all
+Cloudflare,cloudflare workers,core,,all
+Cloudflare,cloudflare tunnel,core,,all
+Cloudflare,cloudflare pages,core,,all
+Cloudflare,cloudflare r2,core,,all
+Cloudflare,cloudflare one,core,,all
+Cloudflare,cloudflare access,core,,all
+Cloudflare,cloudflare dns,core,,all
+Cloudflare,cloudflare turnstile,core,,all
+Cloudflare,クラウドフレア,core,,jp
+Cloudflare,클라우드플레어,core,,kr
+Cloudflare,cloudflare cdn,category,CDN,all
+Cloudflare,cloudflare ddos,category,DDoS and app security,all
+Cloudflare,cloudflare waf,category,DDoS and app security,all
+Cloudflare,cloudflare zero trust,category,Zero Trust,all
+Cloudflare,cloudflare ztna,category,Zero Trust,all
+Cloudflare,cloudflare sase,category,SASE / SSE,all
+Cloudflare,cloudflare sse,category,SASE / SSE,all
+Akamai Technologies,akamai,core,,all
+Akamai Technologies,akamai technologies,core,,all
+Akamai Technologies,akamai connected cloud,core,,all
+Akamai Technologies,akamai linode,core,,all
+Akamai Technologies,linode,core,,all
+Akamai Technologies,akamai guardicore,core,,all
+Akamai Technologies,guardicore,core,,all
+Akamai Technologies,akamai prolexic,core,,all
+Akamai Technologies,akamai bot manager,core,,all
+Akamai Technologies,アカマイ,core,,jp
+Akamai Technologies,아카마이,core,,kr
+Akamai Technologies,akamai cdn,category,CDN,all
+Akamai Technologies,akamai ddos,category,DDoS and app security,all
+Akamai Technologies,akamai waf,category,DDoS and app security,all
+Akamai Technologies,akamai zero trust,category,Zero Trust,all
+Akamai Technologies,akamai ztna,category,Zero Trust,all
+Zscaler,zscaler,core,,all
+Zscaler,z scaler,core,,all
+Zscaler,zscaler zia,core,,all
+Zscaler,zscaler zpa,core,,all
+Zscaler,zscaler zdx,core,,all
+Zscaler,zscaler client connector,core,,all
+Zscaler,zscaler internet access,core,,all
+Zscaler,zscaler private access,core,,all
+Zscaler,zscaler app,core,,all
+Zscaler,ゼットスケーラー,core,,jp
+Zscaler,지스케일러,core,,kr
+Zscaler,zscaler zero trust,category,Zero Trust,all
+Zscaler,zscaler ztna,category,Zero Trust,all
+Zscaler,zscaler sase,category,SASE / SSE,all
+Zscaler,zscaler sse,category,SASE / SSE,all
+Palo Alto Networks,palo alto networks,core,,all
+Palo Alto Networks,paloalto networks,core,,all
+Palo Alto Networks,palo alto network,core,,all
+Palo Alto Networks,palo alto firewall,core,,all
+Palo Alto Networks,prisma access,core,,all
+Palo Alto Networks,prisma sase,core,,all
+Palo Alto Networks,prisma cloud,core,,all
+Palo Alto Networks,cortex xdr,core,,all
+Palo Alto Networks,cortex xsiam,core,,all
+Palo Alto Networks,globalprotect,core,,all
+Palo Alto Networks,global protect,core,,all
+Palo Alto Networks,pan-os,core,,all
+Palo Alto Networks,パロアルトネットワークス,core,,jp
+Palo Alto Networks,팔로알토 네트웍스,core,,kr
+Palo Alto Networks,palo alto zero trust,category,Zero Trust,all
+Palo Alto Networks,palo alto ztna,category,Zero Trust,all
+Palo Alto Networks,palo alto sase,category,SASE / SSE,all
+Palo Alto Networks,palo alto sse,category,SASE / SSE,all

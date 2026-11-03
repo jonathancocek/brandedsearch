@@ -1,0 +1,733 @@
+market,keyword,month,volume,avg_volume_12m,brand,bucket,overlap_area
+au,cloudflare,2025-08,30658.06451612903,49500,Cloudflare,core,
+au,cloudflare,2025-09,38322.58064516129,49500,Cloudflare,core,
+au,cloudflare,2025-10,38322.58064516129,49500,Cloudflare,core,
+au,cloudflare,2025-11,127741.93548387096,49500,Cloudflare,core,
+au,cloudflare,2025-12,38322.58064516129,49500,Cloudflare,core,
+au,cloudflare,2026-01,16606.451612903224,49500,Cloudflare,core,
+au,cloudflare,2026-02,30658.06451612903,49500,Cloudflare,core,
+au,cloudflare,2026-03,45987.096774193546,49500,Cloudflare,core,
+au,cloudflare,2026-04,45987.096774193546,49500,Cloudflare,core,
+au,cloudflare,2026-05,56206.45161290322,49500,Cloudflare,core,
+au,cloudflare,2026-06,68980.64516129032,49500,Cloudflare,core,
+au,cloudflare,2026-07,56206.45161290322,49500,Cloudflare,core,
+au,cloud flare,2025-08,1920.4545454545453,1300,Cloudflare,core,
+au,cloud flare,2025-09,590.9090909090909,1300,Cloudflare,core,
+au,cloud flare,2025-10,1004.5454545454545,1300,Cloudflare,core,
+au,cloud flare,2025-11,2954.5454545454545,1300,Cloudflare,core,
+au,cloud flare,2025-12,1300.0,1300,Cloudflare,core,
+au,cloud flare,2026-01,1004.5454545454545,1300,Cloudflare,core,
+au,cloud flare,2026-02,1625.0,1300,Cloudflare,core,
+au,cloud flare,2026-03,1300.0,1300,Cloudflare,core,
+au,cloud flare,2026-04,709.090909090909,1300,Cloudflare,core,
+au,cloud flare,2026-05,886.3636363636364,1300,Cloudflare,core,
+au,cloud flare,2026-06,1300.0,1300,Cloudflare,core,
+au,cloud flare,2026-07,1004.5454545454545,1300,Cloudflare,core,
+au,cloudflare warp,2025-08,1292.7835051546392,1900,Cloudflare,core,
+au,cloudflare warp,2025-09,1909.7938144329898,1900,Cloudflare,core,
+au,cloudflare warp,2025-10,1292.7835051546392,1900,Cloudflare,core,
+au,cloudflare warp,2025-11,1909.7938144329898,1900,Cloudflare,core,
+au,cloudflare warp,2025-12,1909.7938144329898,1900,Cloudflare,core,
+au,cloudflare warp,2026-01,1909.7938144329898,1900,Cloudflare,core,
+au,cloudflare warp,2026-02,1292.7835051546392,1900,Cloudflare,core,
+au,cloudflare warp,2026-03,2938.1443298969075,1900,Cloudflare,core,
+au,cloudflare warp,2026-04,1615.9793814432992,1900,Cloudflare,core,
+au,cloudflare warp,2026-05,1909.7938144329898,1900,Cloudflare,core,
+au,cloudflare warp,2026-06,2409.278350515464,1900,Cloudflare,core,
+au,cloudflare warp,2026-07,2409.278350515464,1900,Cloudflare,core,
+au,cloudflare workers,2025-08,351.90615835777123,1000,Cloudflare,core,
+au,cloudflare workers,2025-09,246.33431085043992,1000,Cloudflare,core,
+au,cloudflare workers,2025-10,175.95307917888562,1000,Cloudflare,core,
+au,cloudflare workers,2025-11,246.33431085043992,1000,Cloudflare,core,
+au,cloudflare workers,2025-12,246.33431085043992,1000,Cloudflare,core,
+au,cloudflare workers,2026-01,281.524926686217,1000,Cloudflare,core,
+au,cloudflare workers,2026-02,175.95307917888562,1000,Cloudflare,core,
+au,cloudflare workers,2026-03,246.33431085043992,1000,Cloudflare,core,
+au,cloudflare workers,2026-04,3519.0615835777126,1000,Cloudflare,core,
+au,cloudflare workers,2026-05,2322.5806451612902,1000,Cloudflare,core,
+au,cloudflare workers,2026-06,1865.1026392961876,1000,Cloudflare,core,
+au,cloudflare workers,2026-07,2322.5806451612902,1000,Cloudflare,core,
+au,cloudflare tunnel,2025-08,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare tunnel,2025-09,1421.9839142091153,1300,Cloudflare,core,
+au,cloudflare tunnel,2025-10,1421.9839142091153,1300,Cloudflare,core,
+au,cloudflare tunnel,2025-11,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare tunnel,2025-12,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-01,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-02,961.9302949061662,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-03,1421.9839142091153,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-04,1756.56836461126,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-05,2091.152815013405,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-06,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare tunnel,2026-07,1087.3994638069705,1300,Cloudflare,core,
+au,cloudflare pages,2025-08,832.6530612244898,1300,Cloudflare,core,
+au,cloudflare pages,2025-09,587.7551020408163,1300,Cloudflare,core,
+au,cloudflare pages,2025-10,734.6938775510204,1300,Cloudflare,core,
+au,cloudflare pages,2025-11,734.6938775510204,1300,Cloudflare,core,
+au,cloudflare pages,2025-12,734.6938775510204,1300,Cloudflare,core,
+au,cloudflare pages,2026-01,832.6530612244898,1300,Cloudflare,core,
+au,cloudflare pages,2026-02,1077.5510204081631,1300,Cloudflare,core,
+au,cloudflare pages,2026-03,2008.1632653061224,1300,Cloudflare,core,
+au,cloudflare pages,2026-04,1591.8367346938776,1300,Cloudflare,core,
+au,cloudflare pages,2026-05,2008.1632653061224,1300,Cloudflare,core,
+au,cloudflare pages,2026-06,2008.1632653061224,1300,Cloudflare,core,
+au,cloudflare pages,2026-07,2448.9795918367345,1300,Cloudflare,core,
+au,cloudflare r2,2025-08,347.4530831099196,720,Cloudflare,core,
+au,cloudflare r2,2025-09,347.4530831099196,720,Cloudflare,core,
+au,cloudflare r2,2025-10,347.4530831099196,720,Cloudflare,core,
+au,cloudflare r2,2025-11,416.9436997319035,720,Cloudflare,core,
+au,cloudflare r2,2025-12,775.9785522788204,720,Cloudflare,core,
+au,cloudflare r2,2026-01,636.9973190348526,720,Cloudflare,core,
+au,cloudflare r2,2026-02,636.9973190348526,720,Cloudflare,core,
+au,cloudflare r2,2026-03,775.9785522788204,720,Cloudflare,core,
+au,cloudflare r2,2026-04,880.2144772117962,720,Cloudflare,core,
+au,cloudflare r2,2026-05,1158.176943699732,720,Cloudflare,core,
+au,cloudflare r2,2026-06,1158.176943699732,720,Cloudflare,core,
+au,cloudflare r2,2026-07,1158.176943699732,720,Cloudflare,core,
+au,cloudflare one,2025-08,10.306748466257668,140,Cloudflare,core,
+au,cloudflare one,2025-09,10.306748466257668,140,Cloudflare,core,
+au,cloudflare one,2025-10,164.90797546012269,140,Cloudflare,core,
+au,cloudflare one,2025-11,103.06748466257667,140,Cloudflare,core,
+au,cloudflare one,2025-12,164.90797546012269,140,Cloudflare,core,
+au,cloudflare one,2026-01,164.90797546012269,140,Cloudflare,core,
+au,cloudflare one,2026-02,103.06748466257667,140,Cloudflare,core,
+au,cloudflare one,2026-03,164.90797546012269,140,Cloudflare,core,
+au,cloudflare one,2026-04,133.98773006134968,140,Cloudflare,core,
+au,cloudflare one,2026-05,206.13496932515335,140,Cloudflare,core,
+au,cloudflare one,2026-06,206.13496932515335,140,Cloudflare,core,
+au,cloudflare one,2026-07,247.361963190184,140,Cloudflare,core,
+au,cloudflare access,2025-08,147.82608695652175,170,Cloudflare,core,
+au,cloudflare access,2025-09,122.48447204968942,170,Cloudflare,core,
+au,cloudflare access,2025-10,147.82608695652175,170,Cloudflare,core,
+au,cloudflare access,2025-11,181.61490683229812,170,Cloudflare,core,
+au,cloudflare access,2025-12,92.9192546583851,170,Cloudflare,core,
+au,cloudflare access,2026-01,147.82608695652175,170,Cloudflare,core,
+au,cloudflare access,2026-02,147.82608695652175,170,Cloudflare,core,
+au,cloudflare access,2026-03,181.61490683229812,170,Cloudflare,core,
+au,cloudflare access,2026-04,228.0745341614907,170,Cloudflare,core,
+au,cloudflare access,2026-05,181.61490683229812,170,Cloudflare,core,
+au,cloudflare access,2026-06,181.61490683229812,170,Cloudflare,core,
+au,cloudflare access,2026-07,278.7577639751553,170,Cloudflare,core,
+au,cloudflare dns,2025-08,2212.71676300578,2900,Cloudflare,core,
+au,cloudflare dns,2025-09,2212.71676300578,2900,Cloudflare,core,
+au,cloudflare dns,2025-10,2212.71676300578,2900,Cloudflare,core,
+au,cloudflare dns,2025-11,2665.3179190751443,2900,Cloudflare,core,
+au,cloudflare dns,2025-12,2212.71676300578,2900,Cloudflare,core,
+au,cloudflare dns,2026-01,3319.0751445086707,2900,Cloudflare,core,
+au,cloudflare dns,2026-02,2212.71676300578,2900,Cloudflare,core,
+au,cloudflare dns,2026-03,2665.3179190751443,2900,Cloudflare,core,
+au,cloudflare dns,2026-04,2665.3179190751443,2900,Cloudflare,core,
+au,cloudflare dns,2026-05,4073.410404624278,2900,Cloudflare,core,
+au,cloudflare dns,2026-06,3319.0751445086707,2900,Cloudflare,core,
+au,cloudflare dns,2026-07,5028.901734104046,2900,Cloudflare,core,
+au,cloudflare turnstile,2025-08,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2025-09,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2025-10,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2025-11,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2025-12,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2026-01,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2026-02,370.2857142857143,480,Cloudflare,core,
+au,cloudflare turnstile,2026-03,685.7142857142857,480,Cloudflare,core,
+au,cloudflare turnstile,2026-04,555.4285714285714,480,Cloudflare,core,
+au,cloudflare turnstile,2026-05,685.7142857142857,480,Cloudflare,core,
+au,cloudflare turnstile,2026-06,555.4285714285714,480,Cloudflare,core,
+au,cloudflare turnstile,2026-07,685.7142857142857,480,Cloudflare,core,
+au,cloudflare cdn,2025-08,186.13636363636363,390,Cloudflare,category,CDN
+au,cloudflare cdn,2025-09,150.6818181818182,390,Cloudflare,category,CDN
+au,cloudflare cdn,2025-10,186.13636363636363,390,Cloudflare,category,CDN
+au,cloudflare cdn,2025-11,283.6363636363636,390,Cloudflare,category,CDN
+au,cloudflare cdn,2025-12,186.13636363636363,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-01,230.45454545454544,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-02,425.45454545454544,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-03,522.9545454545454,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-04,345.6818181818182,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-05,638.1818181818181,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-06,886.3636363636364,390,Cloudflare,category,CDN
+au,cloudflare cdn,2026-07,638.1818181818181,390,Cloudflare,category,CDN
+au,cloudflare ddos,2025-08,150.8359133126935,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2025-09,421.30030959752327,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2025-10,150.8359133126935,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2025-11,520.123839009288,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2025-12,93.62229102167181,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-01,41.60990712074304,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-02,31.207430340557273,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-03,52.012383900928796,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-04,52.012383900928796,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-05,72.81733746130031,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-06,52.012383900928796,140,Cloudflare,category,DDoS and app security
+au,cloudflare ddos,2026-07,41.60990712074304,140,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2025-08,128.29090909090908,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2025-09,128.29090909090908,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2025-10,160.36363636363637,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2025-11,160.36363636363637,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2025-12,160.36363636363637,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-01,128.29090909090908,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-02,160.36363636363637,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-03,160.36363636363637,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-04,201.6,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-05,371.1272727272727,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-06,458.1818181818182,210,Cloudflare,category,DDoS and app security
+au,cloudflare waf,2026-07,302.40000000000003,210,Cloudflare,category,DDoS and app security
+au,cloudflare zero trust,2025-08,284.5945945945946,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2025-09,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2025-10,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2025-11,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2025-12,284.5945945945946,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-01,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-02,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-03,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-04,347.8378378378378,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-05,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-06,347.8378378378378,390,Cloudflare,category,Zero Trust
+au,cloudflare zero trust,2026-07,426.8918918918919,390,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2025-08,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2025-09,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2025-10,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2025-11,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2025-12,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-01,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-02,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-03,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-04,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-05,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-06,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare ztna,2026-07,19.999999999999996,20,Cloudflare,category,Zero Trust
+au,cloudflare sase,2025-08,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2025-09,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2025-10,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2025-11,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2025-12,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-01,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-02,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-03,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-04,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-05,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-06,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sase,2026-07,19.999999999999996,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2025-08,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2025-09,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2025-10,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2025-11,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2025-12,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-01,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-02,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-03,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-04,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-05,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-06,20.0,20,Cloudflare,category,SASE / SSE
+au,cloudflare sse,2026-07,20.0,20,Cloudflare,category,SASE / SSE
+au,akamai,2025-08,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2025-09,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2025-10,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2025-11,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2025-12,1361.1940298507461,1900,Akamai Technologies,core,
+au,akamai,2026-01,1701.4925373134326,1900,Akamai Technologies,core,
+au,akamai,2026-02,1701.4925373134326,1900,Akamai Technologies,core,
+au,akamai,2026-03,1701.4925373134326,1900,Akamai Technologies,core,
+au,akamai,2026-04,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2026-05,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2026-06,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai,2026-07,2041.7910447761192,1900,Akamai Technologies,core,
+au,akamai technologies,2025-08,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2025-09,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2025-10,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2025-11,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2025-12,172.5,320,Akamai Technologies,core,
+au,akamai technologies,2026-01,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2026-02,405.00000000000006,320,Akamai Technologies,core,
+au,akamai technologies,2026-03,217.49999999999997,320,Akamai Technologies,core,
+au,akamai technologies,2026-04,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2026-05,405.00000000000006,320,Akamai Technologies,core,
+au,akamai technologies,2026-06,330.0,320,Akamai Technologies,core,
+au,akamai technologies,2026-07,330.0,320,Akamai Technologies,core,
+au,akamai connected cloud,2025-08,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2025-09,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2025-10,17.142857142857142,10,Akamai Technologies,core,
+au,akamai connected cloud,2025-11,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2025-12,17.142857142857142,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-01,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-02,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-03,0.0,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-04,17.142857142857142,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-05,34.285714285714285,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-06,17.142857142857142,10,Akamai Technologies,core,
+au,akamai connected cloud,2026-07,17.142857142857142,10,Akamai Technologies,core,
+au,akamai linode,2025-08,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2025-09,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2025-10,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2025-11,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2025-12,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-01,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-02,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-03,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-04,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-05,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-06,19.999999999999996,20,Akamai Technologies,core,
+au,akamai linode,2026-07,19.999999999999996,20,Akamai Technologies,core,
+au,linode,2025-08,1927.342256214149,2400,Akamai Technologies,core,
+au,linode,2025-09,1927.342256214149,2400,Akamai Technologies,core,
+au,linode,2025-10,1321.606118546845,2400,Akamai Technologies,core,
+au,linode,2025-11,1321.606118546845,2400,Akamai Technologies,core,
+au,linode,2025-12,1321.606118546845,2400,Akamai Technologies,core,
+au,linode,2026-01,1321.606118546845,2400,Akamai Technologies,core,
+au,linode,2026-02,991.2045889101338,2400,Akamai Technologies,core,
+au,linode,2026-03,1321.606118546845,2400,Akamai Technologies,core,
+au,linode,2026-04,5506.692160611854,2400,Akamai Technologies,core,
+au,linode,2026-05,4460.420650095602,2400,Akamai Technologies,core,
+au,linode,2026-06,2918.5468451242828,2400,Akamai Technologies,core,
+au,linode,2026-07,4460.420650095602,2400,Akamai Technologies,core,
+au,akamai guardicore,2025-08,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2025-09,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2025-10,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2025-11,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2025-12,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-01,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-02,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-03,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-04,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-05,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-06,19.999999999999996,20,Akamai Technologies,core,
+au,akamai guardicore,2026-07,19.999999999999996,20,Akamai Technologies,core,
+au,guardicore,2025-08,25.185185185185187,20,Akamai Technologies,core,
+au,guardicore,2025-09,25.185185185185187,20,Akamai Technologies,core,
+au,guardicore,2025-10,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2025-11,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2025-12,34.074074074074076,20,Akamai Technologies,core,
+au,guardicore,2026-01,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2026-02,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2026-03,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2026-04,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2026-05,16.296296296296294,20,Akamai Technologies,core,
+au,guardicore,2026-06,25.185185185185187,20,Akamai Technologies,core,
+au,guardicore,2026-07,16.296296296296294,20,Akamai Technologies,core,
+au,akamai prolexic,2025-08,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2025-09,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2025-10,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2025-11,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2025-12,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-01,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-02,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-03,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-04,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-05,28.799999999999997,20,Akamai Technologies,core,
+au,akamai prolexic,2026-06,19.2,20,Akamai Technologies,core,
+au,akamai prolexic,2026-07,19.2,20,Akamai Technologies,core,
+au,akamai bot manager,2025-08,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2025-09,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2025-10,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2025-11,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2025-12,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-01,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-02,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-03,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-04,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-05,17.142857142857142,20,Akamai Technologies,core,
+au,akamai bot manager,2026-06,42.857142857142854,20,Akamai Technologies,core,
+au,akamai bot manager,2026-07,25.71428571428571,20,Akamai Technologies,core,
+au,akamai cdn,2025-08,110.86956521739131,170,Akamai Technologies,category,CDN
+au,akamai cdn,2025-09,66.52173913043478,170,Akamai Technologies,category,CDN
+au,akamai cdn,2025-10,88.69565217391305,170,Akamai Technologies,category,CDN
+au,akamai cdn,2025-11,140.43478260869568,170,Akamai Technologies,category,CDN
+au,akamai cdn,2025-12,88.69565217391305,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-01,214.3478260869565,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-02,170.00000000000003,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-03,399.1304347826088,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-04,214.3478260869565,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-05,266.0869565217391,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-06,140.43478260869568,170,Akamai Technologies,category,CDN
+au,akamai cdn,2026-07,140.43478260869568,170,Akamai Technologies,category,CDN
+au,akamai ddos,2025-08,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2025-09,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2025-10,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2025-11,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2025-12,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-01,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-02,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-03,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-04,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-05,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-06,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai ddos,2026-07,19.999999999999996,20,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2025-08,159.15119363395226,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2025-09,17.50663129973475,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2025-10,46.15384615384615,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2025-11,65.25198938992041,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2025-12,36.60477453580902,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-01,46.15384615384615,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-02,27.055702917771885,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-03,27.055702917771885,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-04,46.15384615384615,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-05,36.60477453580902,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-06,46.15384615384615,50,Akamai Technologies,category,DDoS and app security
+au,akamai waf,2026-07,46.15384615384615,50,Akamai Technologies,category,DDoS and app security
+au,akamai zero trust,2025-08,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2025-09,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2025-10,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2025-11,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2025-12,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-01,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-02,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-03,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-04,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-05,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-06,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai zero trust,2026-07,19.999999999999996,20,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2025-08,0.0,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2025-09,0.0,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2025-10,21.818181818181817,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2025-11,0.0,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2025-12,0.0,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-01,21.818181818181817,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-02,10.909090909090908,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-03,0.0,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-04,21.818181818181817,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-05,21.818181818181817,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-06,21.818181818181817,10,Akamai Technologies,category,Zero Trust
+au,akamai ztna,2026-07,0.0,10,Akamai Technologies,category,Zero Trust
+au,zscaler,2025-08,5140.384615384615,4400,Zscaler,core,
+au,zscaler,2025-09,5140.384615384615,4400,Zscaler,core,
+au,zscaler,2025-10,4188.461538461538,4400,Zscaler,core,
+au,zscaler,2025-11,4188.461538461538,4400,Zscaler,core,
+au,zscaler,2025-12,2728.846153846154,4400,Zscaler,core,
+au,zscaler,2026-01,4188.461538461538,4400,Zscaler,core,
+au,zscaler,2026-02,5140.384615384615,4400,Zscaler,core,
+au,zscaler,2026-03,5140.384615384615,4400,Zscaler,core,
+au,zscaler,2026-04,4188.461538461538,4400,Zscaler,core,
+au,zscaler,2026-05,5140.384615384615,4400,Zscaler,core,
+au,zscaler,2026-06,4188.461538461538,4400,Zscaler,core,
+au,zscaler,2026-07,3426.923076923077,4400,Zscaler,core,
+au,z scaler,2025-08,363.495145631068,390,Zscaler,core,
+au,z scaler,2025-09,567.9611650485436,390,Zscaler,core,
+au,z scaler,2025-10,454.36893203883494,390,Zscaler,core,
+au,z scaler,2025-11,454.36893203883494,390,Zscaler,core,
+au,z scaler,2025-12,249.9029126213592,390,Zscaler,core,
+au,z scaler,2026-01,249.9029126213592,390,Zscaler,core,
+au,z scaler,2026-02,363.495145631068,390,Zscaler,core,
+au,z scaler,2026-03,567.9611650485436,390,Zscaler,core,
+au,z scaler,2026-04,363.495145631068,390,Zscaler,core,
+au,z scaler,2026-05,454.36893203883494,390,Zscaler,core,
+au,z scaler,2026-06,295.3398058252427,390,Zscaler,core,
+au,z scaler,2026-07,295.3398058252427,390,Zscaler,core,
+au,zscaler zia,2025-08,43.391521197007485,50,Zscaler,core,
+au,zscaler zia,2025-09,149.62593516209478,50,Zscaler,core,
+au,zscaler zia,2025-10,43.391521197007485,50,Zscaler,core,
+au,zscaler zia,2025-11,61.34663341645885,50,Zscaler,core,
+au,zscaler zia,2025-12,34.413965087281795,50,Zscaler,core,
+au,zscaler zia,2026-01,34.413965087281795,50,Zscaler,core,
+au,zscaler zia,2026-02,43.391521197007485,50,Zscaler,core,
+au,zscaler zia,2026-03,43.391521197007485,50,Zscaler,core,
+au,zscaler zia,2026-04,25.436408977556116,50,Zscaler,core,
+au,zscaler zia,2026-05,34.413965087281795,50,Zscaler,core,
+au,zscaler zia,2026-06,43.391521197007485,50,Zscaler,core,
+au,zscaler zia,2026-07,43.391521197007485,50,Zscaler,core,
+au,zscaler zpa,2025-08,92.21269296740995,70,Zscaler,core,
+au,zscaler zpa,2025-09,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2025-10,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2025-11,92.21269296740995,70,Zscaler,core,
+au,zscaler zpa,2025-12,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2026-01,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2026-02,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2026-03,50.42881646655231,70,Zscaler,core,
+au,zscaler zpa,2026-04,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2026-05,50.42881646655231,70,Zscaler,core,
+au,zscaler zpa,2026-06,72.04116638078902,70,Zscaler,core,
+au,zscaler zpa,2026-07,50.42881646655231,70,Zscaler,core,
+au,zscaler zdx,2025-08,25.714285714285715,20,Zscaler,core,
+au,zscaler zdx,2025-09,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2025-10,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2025-11,25.714285714285715,20,Zscaler,core,
+au,zscaler zdx,2025-12,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2026-01,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2026-02,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2026-03,25.714285714285715,20,Zscaler,core,
+au,zscaler zdx,2026-04,25.714285714285715,20,Zscaler,core,
+au,zscaler zdx,2026-05,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2026-06,17.142857142857142,20,Zscaler,core,
+au,zscaler zdx,2026-07,17.142857142857142,20,Zscaler,core,
+au,zscaler client connector,2025-08,163.9626168224299,170,Zscaler,core,
+au,zscaler client connector,2025-09,202.09345794392524,170,Zscaler,core,
+au,zscaler client connector,2025-10,202.09345794392524,170,Zscaler,core,
+au,zscaler client connector,2025-11,202.09345794392524,170,Zscaler,core,
+au,zscaler client connector,2025-12,133.45794392523365,170,Zscaler,core,
+au,zscaler client connector,2026-01,202.09345794392524,170,Zscaler,core,
+au,zscaler client connector,2026-02,202.09345794392524,170,Zscaler,core,
+au,zscaler client connector,2026-03,163.9626168224299,170,Zscaler,core,
+au,zscaler client connector,2026-04,163.9626168224299,170,Zscaler,core,
+au,zscaler client connector,2026-05,163.9626168224299,170,Zscaler,core,
+au,zscaler client connector,2026-06,106.76635514018693,170,Zscaler,core,
+au,zscaler client connector,2026-07,133.45794392523365,170,Zscaler,core,
+au,zscaler internet access,2025-08,33.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2025-09,22.400000000000002,30,Zscaler,core,
+au,zscaler internet access,2025-10,33.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2025-11,33.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2025-12,22.400000000000002,30,Zscaler,core,
+au,zscaler internet access,2026-01,22.400000000000002,30,Zscaler,core,
+au,zscaler internet access,2026-02,45.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2026-03,45.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2026-04,22.400000000000002,30,Zscaler,core,
+au,zscaler internet access,2026-05,33.599999999999994,30,Zscaler,core,
+au,zscaler internet access,2026-06,22.400000000000002,30,Zscaler,core,
+au,zscaler internet access,2026-07,22.400000000000002,30,Zscaler,core,
+au,zscaler private access,2025-08,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2025-09,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2025-10,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2025-11,36.19047619047619,50,Zscaler,core,
+au,zscaler private access,2025-12,36.19047619047619,50,Zscaler,core,
+au,zscaler private access,2026-01,26.666666666666668,50,Zscaler,core,
+au,zscaler private access,2026-02,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2026-03,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2026-04,62.85714285714285,50,Zscaler,core,
+au,zscaler private access,2026-05,43.8095238095238,50,Zscaler,core,
+au,zscaler private access,2026-06,43.8095238095238,50,Zscaler,core,
+au,zscaler private access,2026-07,36.19047619047619,50,Zscaler,core,
+au,zscaler app,2025-08,39.99999999999999,30,Zscaler,core,
+au,zscaler app,2025-09,19.999999999999996,30,Zscaler,core,
+au,zscaler app,2025-10,50.0,30,Zscaler,core,
+au,zscaler app,2025-11,39.99999999999999,30,Zscaler,core,
+au,zscaler app,2025-12,30.0,30,Zscaler,core,
+au,zscaler app,2026-01,19.999999999999996,30,Zscaler,core,
+au,zscaler app,2026-02,30.0,30,Zscaler,core,
+au,zscaler app,2026-03,19.999999999999996,30,Zscaler,core,
+au,zscaler app,2026-04,30.0,30,Zscaler,core,
+au,zscaler app,2026-05,30.0,30,Zscaler,core,
+au,zscaler app,2026-06,30.0,30,Zscaler,core,
+au,zscaler app,2026-07,19.999999999999996,30,Zscaler,core,
+au,zscaler zero trust,2025-08,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2025-09,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2025-10,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2025-11,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2025-12,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-01,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-02,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-03,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-04,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-05,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-06,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler zero trust,2026-07,19.999999999999996,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2025-08,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2025-09,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2025-10,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2025-11,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2025-12,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-01,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-02,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-03,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-04,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-05,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-06,20.0,20,Zscaler,category,Zero Trust
+au,zscaler ztna,2026-07,20.0,20,Zscaler,category,Zero Trust
+au,zscaler sase,2025-08,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2025-09,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2025-10,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2025-11,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2025-12,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-01,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-02,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-03,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-04,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-05,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-06,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sase,2026-07,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2025-08,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2025-09,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2025-10,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2025-11,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2025-12,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-01,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-02,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-03,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-04,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-05,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-06,20.0,20,Zscaler,category,SASE / SSE
+au,zscaler sse,2026-07,20.0,20,Zscaler,category,SASE / SSE
+au,palo alto networks,2025-08,1709.2926490984744,1300,Palo Alto Networks,core,
+au,palo alto networks,2025-09,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2025-10,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2025-11,1428.0166435506242,1300,Palo Alto Networks,core,
+au,palo alto networks,2025-12,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-01,887.1012482662968,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-02,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-03,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-04,1168.377253814147,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-05,1709.2926490984744,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-06,1428.0166435506242,1300,Palo Alto Networks,core,
+au,palo alto networks,2026-07,1428.0166435506242,1300,Palo Alto Networks,core,
+au,paloalto networks,2025-08,30.857142857142865,90,Palo Alto Networks,core,
+au,paloalto networks,2025-09,44.08163265306123,90,Palo Alto Networks,core,
+au,paloalto networks,2025-10,52.89795918367347,90,Palo Alto Networks,core,
+au,paloalto networks,2025-11,52.89795918367347,90,Palo Alto Networks,core,
+au,paloalto networks,2025-12,189.55102040816328,90,Palo Alto Networks,core,
+au,paloalto networks,2026-01,22.040816326530614,90,Palo Alto Networks,core,
+au,paloalto networks,2026-02,22.040816326530614,90,Palo Alto Networks,core,
+au,paloalto networks,2026-03,154.2857142857143,90,Palo Alto Networks,core,
+au,paloalto networks,2026-04,361.46938775510205,90,Palo Alto Networks,core,
+au,paloalto networks,2026-05,52.89795918367347,90,Palo Alto Networks,core,
+au,paloalto networks,2026-06,44.08163265306123,90,Palo Alto Networks,core,
+au,paloalto networks,2026-07,52.89795918367347,90,Palo Alto Networks,core,
+au,palo alto network,2025-08,161.89944134078212,210,Palo Alto Networks,core,
+au,palo alto network,2025-09,253.40782122905026,210,Palo Alto Networks,core,
+au,palo alto network,2025-10,161.89944134078212,210,Palo Alto Networks,core,
+au,palo alto network,2025-11,204.1340782122905,210,Palo Alto Networks,core,
+au,palo alto network,2025-12,133.74301675977654,210,Palo Alto Networks,core,
+au,palo alto network,2026-01,133.74301675977654,210,Palo Alto Networks,core,
+au,palo alto network,2026-02,161.89944134078212,210,Palo Alto Networks,core,
+au,palo alto network,2026-03,253.40782122905026,210,Palo Alto Networks,core,
+au,palo alto network,2026-04,380.11173184357546,210,Palo Alto Networks,core,
+au,palo alto network,2026-05,309.72067039106145,210,Palo Alto Networks,core,
+au,palo alto network,2026-06,161.89944134078212,210,Palo Alto Networks,core,
+au,palo alto network,2026-07,204.1340782122905,210,Palo Alto Networks,core,
+au,palo alto firewall,2025-08,300.17492711370267,260,Palo Alto Networks,core,
+au,palo alto firewall,2025-09,300.17492711370267,260,Palo Alto Networks,core,
+au,palo alto firewall,2025-10,300.17492711370267,260,Palo Alto Networks,core,
+au,palo alto firewall,2025-11,245.59766763848398,260,Palo Alto Networks,core,
+au,palo alto firewall,2025-12,195.5685131195335,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-01,195.5685131195335,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-02,245.59766763848398,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-03,245.59766763848398,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-04,245.59766763848398,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-05,300.17492711370267,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-06,245.59766763848398,260,Palo Alto Networks,core,
+au,palo alto firewall,2026-07,300.17492711370267,260,Palo Alto Networks,core,
+au,prisma access,2025-08,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2025-09,115.70860927152317,140,Palo Alto Networks,core,
+au,prisma access,2025-10,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2025-11,222.5165562913907,140,Palo Alto Networks,core,
+au,prisma access,2025-12,73.43046357615893,140,Palo Alto Networks,core,
+au,prisma access,2026-01,93.45695364238411,140,Palo Alto Networks,core,
+au,prisma access,2026-02,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2026-03,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2026-04,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2026-05,146.86092715231786,140,Palo Alto Networks,core,
+au,prisma access,2026-06,178.01324503311255,140,Palo Alto Networks,core,
+au,prisma access,2026-07,115.70860927152317,140,Palo Alto Networks,core,
+au,prisma sase,2025-08,70.58823529411765,40,Palo Alto Networks,core,
+au,prisma sase,2025-09,50.11764705882352,40,Palo Alto Networks,core,
+au,prisma sase,2025-10,19.764705882352942,40,Palo Alto Networks,core,
+au,prisma sase,2025-11,40.23529411764706,40,Palo Alto Networks,core,
+au,prisma sase,2025-12,19.764705882352942,40,Palo Alto Networks,core,
+au,prisma sase,2026-01,29.647058823529413,40,Palo Alto Networks,core,
+au,prisma sase,2026-02,40.23529411764706,40,Palo Alto Networks,core,
+au,prisma sase,2026-03,50.11764705882352,40,Palo Alto Networks,core,
+au,prisma sase,2026-04,50.11764705882352,40,Palo Alto Networks,core,
+au,prisma sase,2026-05,29.647058823529413,40,Palo Alto Networks,core,
+au,prisma sase,2026-06,29.647058823529413,40,Palo Alto Networks,core,
+au,prisma sase,2026-07,50.11764705882352,40,Palo Alto Networks,core,
+au,prisma cloud,2025-08,228.30769230769235,140,Palo Alto Networks,core,
+au,prisma cloud,2025-09,150.76923076923077,140,Palo Alto Networks,core,
+au,prisma cloud,2025-10,150.76923076923077,140,Palo Alto Networks,core,
+au,prisma cloud,2025-11,185.23076923076923,140,Palo Alto Networks,core,
+au,prisma cloud,2025-12,99.0769230769231,140,Palo Alto Networks,core,
+au,prisma cloud,2026-01,120.61538461538463,140,Palo Alto Networks,core,
+au,prisma cloud,2026-02,185.23076923076923,140,Palo Alto Networks,core,
+au,prisma cloud,2026-03,120.61538461538463,140,Palo Alto Networks,core,
+au,prisma cloud,2026-04,99.0769230769231,140,Palo Alto Networks,core,
+au,prisma cloud,2026-05,99.0769230769231,140,Palo Alto Networks,core,
+au,prisma cloud,2026-06,120.61538461538463,140,Palo Alto Networks,core,
+au,prisma cloud,2026-07,120.61538461538463,140,Palo Alto Networks,core,
+au,cortex xdr,2025-08,364.48598130841117,260,Palo Alto Networks,core,
+au,cortex xdr,2025-09,298.8785046728971,260,Palo Alto Networks,core,
+au,cortex xdr,2025-10,364.48598130841117,260,Palo Alto Networks,core,
+au,cortex xdr,2025-11,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xdr,2025-12,156.7289719626168,260,Palo Alto Networks,core,
+au,cortex xdr,2026-01,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xdr,2026-02,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xdr,2026-03,298.8785046728971,260,Palo Alto Networks,core,
+au,cortex xdr,2026-04,193.17757009345794,260,Palo Alto Networks,core,
+au,cortex xdr,2026-05,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xdr,2026-06,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xdr,2026-07,240.5607476635514,260,Palo Alto Networks,core,
+au,cortex xsiam,2025-08,35.1219512195122,40,Palo Alto Networks,core,
+au,cortex xsiam,2025-09,35.1219512195122,40,Palo Alto Networks,core,
+au,cortex xsiam,2025-10,46.829268292682926,40,Palo Alto Networks,core,
+au,cortex xsiam,2025-11,46.829268292682926,40,Palo Alto Networks,core,
+au,cortex xsiam,2025-12,23.414634146341463,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-01,23.414634146341463,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-02,23.414634146341463,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-03,81.95121951219514,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-04,23.414634146341463,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-05,23.414634146341463,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-06,58.53658536585366,40,Palo Alto Networks,core,
+au,cortex xsiam,2026-07,58.53658536585366,40,Palo Alto Networks,core,
+au,globalprotect,2025-08,402.7972027972028,480,Palo Alto Networks,core,
+au,globalprotect,2025-09,483.3566433566433,480,Palo Alto Networks,core,
+au,globalprotect,2025-10,402.7972027972028,480,Palo Alto Networks,core,
+au,globalprotect,2025-11,402.7972027972028,480,Palo Alto Networks,core,
+au,globalprotect,2025-12,402.7972027972028,480,Palo Alto Networks,core,
+au,globalprotect,2026-01,604.1958041958042,480,Palo Alto Networks,core,
+au,globalprotect,2026-02,604.1958041958042,480,Palo Alto Networks,core,
+au,globalprotect,2026-03,604.1958041958042,480,Palo Alto Networks,core,
+au,globalprotect,2026-04,402.7972027972028,480,Palo Alto Networks,core,
+au,globalprotect,2026-05,483.3566433566433,480,Palo Alto Networks,core,
+au,globalprotect,2026-06,483.3566433566433,480,Palo Alto Networks,core,
+au,globalprotect,2026-07,483.3566433566433,480,Palo Alto Networks,core,
+au,global protect,2025-08,867.8860569715141,720,Palo Alto Networks,core,
+au,global protect,2025-09,582.9085457271364,720,Palo Alto Networks,core,
+au,global protect,2025-10,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2025-11,867.8860569715141,720,Palo Alto Networks,core,
+au,global protect,2025-12,466.3268365817091,720,Palo Alto Networks,core,
+au,global protect,2026-01,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2026-02,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2026-03,867.8860569715141,720,Palo Alto Networks,core,
+au,global protect,2026-04,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2026-05,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2026-06,712.4437781109444,720,Palo Alto Networks,core,
+au,global protect,2026-07,712.4437781109444,720,Palo Alto Networks,core,
+au,pan-os,2025-08,0.0,0,Palo Alto Networks,core,
+au,pan-os,2025-09,0.0,0,Palo Alto Networks,core,
+au,pan-os,2025-10,0.0,0,Palo Alto Networks,core,
+au,pan-os,2025-11,0.0,0,Palo Alto Networks,core,
+au,pan-os,2025-12,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-01,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-02,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-03,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-04,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-05,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-06,0.0,0,Palo Alto Networks,core,
+au,pan-os,2026-07,0.0,0,Palo Alto Networks,core,
+au,palo alto zero trust,2025-08,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2025-09,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2025-10,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2025-11,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2025-12,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-01,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-02,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-03,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-04,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-05,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-06,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto zero trust,2026-07,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2025-08,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2025-09,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2025-10,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2025-11,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2025-12,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-01,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-02,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-03,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-04,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-05,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-06,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto ztna,2026-07,20.0,20,Palo Alto Networks,category,Zero Trust
+au,palo alto sase,2025-08,80.24813895781638,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2025-09,104.2183622828784,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2025-10,104.2183622828784,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2025-11,104.2183622828784,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2025-12,57.32009925558313,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-01,22.92803970223325,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-02,57.32009925558313,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-03,34.392059553349874,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-04,57.32009925558313,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-05,80.24813895781638,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-06,80.24813895781638,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sase,2026-07,57.32009925558313,70,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2025-08,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2025-09,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2025-10,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2025-11,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2025-12,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-01,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-02,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-03,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-04,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-05,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-06,20.0,20,Palo Alto Networks,category,SASE / SSE
+au,palo alto sse,2026-07,20.0,20,Palo Alto Networks,category,SASE / SSE
